@@ -2,7 +2,6 @@ defmodule Grouper.Data do
   @moduledoc """
   uniform data layer for groups of processes
   """
-  require Ex2ms
   alias Grouper.Ident
   alias Grouper.Data.App
   alias Grouper.Data.Group
