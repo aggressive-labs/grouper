@@ -52,7 +52,7 @@ defmodule Grouper.Config do
   @doc """
   set configuration for a given key to a value
   """
-  @spec put(Data.key(), Data.value(), Data.opts()) :: {:ok, Data.value} | {:error, :no_group}
+  @spec put(Data.key(), Data.value(), Data.opts()) :: {:ok, Data.value()} | {:error, :no_group}
   def put(key, val, opts \\ []) do
     Data.put(:config, key, val, opts)
   end

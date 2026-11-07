@@ -12,7 +12,8 @@ defmodule Grouper.MixProject do
       start_permanent: Mix.env() == :prod,
       deps: deps(),
       name: "Grouper",
-      description: "Isolates groups of process subtrees together for configuration and name registration purposes.",
+      description:
+        "Isolates groups of process subtrees together for configuration and name registration purposes.",
       source_url: "https://github.com/aggressive-labs/grouper",
       package: package(),
       dialyzer: [
@@ -46,7 +47,6 @@ defmodule Grouper.MixProject do
       {:dialyxir, "~> 1.0", only: [:dev, :test], runtime: false}
     ]
   end
-
 
   defp package() do
     [licenses: ["MIT"], links: %{"GitHub" => "https://github.com/aggressive-labs/grouper"}]

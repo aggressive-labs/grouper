@@ -76,7 +76,6 @@ defmodule Grouper do
       err
   end
 
-
   @doc """
   execute a function in its own group, raising an exception on error
 
