@@ -1,5 +1,7 @@
 # Grouper
 
+[![CI](https://github.com/aggressive-labs/grouper/actions/workflows/ci.yml/badge.svg)](https://github.com/aggressive-labs/grouper/actions/workflows/ci.yml) [![Hex.pm](https://img.shields.io/hexpm/v/grouper.svg)](https://hex.pm/packages/grouper) [![HexDocs](https://img.shields.io/badge/docs-hexdocs-blue.svg)](https://hexdocs.pm/grouper)
+
 Isolates groups of process subtrees together for configuration and name
 registration purposes.
 
